@@ -68,7 +68,7 @@ function App() {
               "✖️"
             ) : (
               <Bars3Icon
-                className="h-6 w-6 cursor-pointer bg-purple-200 rounded mx-20"
+                className="h-6 w-6 cursor-pointer bg-purple-200 rounded mx-5"
                 aria-hidden="true"
               />
             )}
@@ -124,7 +124,7 @@ function App() {
       <section>
         <div className="w-3/4 flex justify-evenly items-center mt-10 max-md:flex-col md:min-w-[650px] m-auto md:grid-cols-2 gap-4 bg-gray-700 text-[#F88BE0] rounded-lg px-5 mb-2 shadow-inner shadow-gray-300 max-md:p-5">
           <div className="w-[481px] flex flex-col max-md:w-80 ">
-            <h1 className="text-4xl uppercase font-mono font-extrabold leading-[66px] max-md:text-center md:ml-auto">
+            <h1 className="lg:w-2/3 justify-start text-4xl font-sans font-extrabold leading-[66px] max-md:text-center max-md:font-mono">
               A special credit card made for Developers.
             </h1>
             <p className="text-1 text-gray-400 max-md:text-center my-6">
